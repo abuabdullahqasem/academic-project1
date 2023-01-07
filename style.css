@@ -1,0 +1,81 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.header {
+     background-image: url('images/banner/banner.png');
+     background-size: cover;
+     width: 1600px;
+     height: 808px;
+     top: 250px;
+     left: 820px;
+}
+
+/*Plans Section style*/
+.plans{
+     width: 1140px;
+
+}
+.plans-images {
+     display: flex;
+     gap: 25px;
+     margin: 0 auto;
+     margin-bottom: 50px;
+}
+
+.plans-image {
+     display: flex;
+     width: 350px;
+     height: 500px;
+}
+
+.plans-title {
+     text-align: center;
+     font-size: 60px;
+     font-weight: 700;
+}
+
+.plans-description {
+     text-align: center;
+     font-size: 30px;
+     font-weight: 400;
+     padding: 0 25px;
+}
+
+/* pic section style*/
+.quran-pic-area {
+     background-image: url('images/quran.png');
+     background-size: cover;
+     width: 1140px;
+     Height: 300px;
+     border-radius: 8px;
+     margin: 0 auto;
+
+
+}
+
+.quran-title {
+     font-size: 25px;
+     font-weight: 600;
+     margin-left: 60px;
+     color: white;
+}
+
+
+
+
+
+
+
+/* footer style*/
+footer {
+     margin-top: 300px;
+     width: 1600px;
+     height: 577px;
+     background: #151414;
+}
+
+.footer-area {
+     display: flex;
+}
